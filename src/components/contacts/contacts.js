@@ -5,8 +5,8 @@ import Image from 'next/image';
 import React, { useContext, useRef, useState } from 'react';
 import { AiOutlineCheckCircle, AiOutlineSend } from 'react-icons/ai';
 import {
-    FaFacebook, FaGithub, FaLinkedinIn, FaMediumM,
-    FaStackOverflow, FaTwitter
+     FaGithub, FaInstagram, FaLinkedinIn,
+    FaStackOverflow, FaTelegram, FaYoutube
 } from 'react-icons/fa';
 import { FiAtSign, FiPhone } from 'react-icons/fi';
 import { HiOutlineLocationMarker } from 'react-icons/hi';
@@ -253,9 +253,9 @@ function Contacts() {
                         </div>
 
                         <div className={styles.socialmediaIcons}>
-                            {socialsData.twitter && (
+                            {socialsData.youtube && (
                                 <a
-                                    href={socialsData.twitter}
+                                    href={socialsData.youtube}
                                     target='_blank'
                                     rel='noreferrer'
                                     className="w-[45px] h-[45px] 
@@ -264,7 +264,7 @@ function Contacts() {
                                      ease-in-out text-[#15202B] bg-[#8B98A5]
                                       hover:bg-[#1D9BF0]"
                                 >
-                                    <FaTwitter aria-label='Twitter' />
+                                    <FaYoutube aria-label='Youtube' />
                                 </a>
                             )}
                             {socialsData.github && (
@@ -294,9 +294,9 @@ function Contacts() {
                                 </a>
                             )}
 
-                            {socialsData.medium && (
+                            {socialsData.telegram && (
                                 <a
-                                    href={socialsData.medium}
+                                    href={socialsData.telegram}
                                     target='_blank'
                                     rel='noreferrer'
                                     className="w-[45px] h-[45px] rounded-[50%] flex 
@@ -304,7 +304,7 @@ function Contacts() {
                                     ease-in-out text-[#15202B] bg-[#8B98A5] 
                                     hover:bg-[#1D9BF0]"
                                 >
-                                    <FaMediumM aria-label='Medium' />
+                                    <FaTelegram aria-label='Telegram' />
                                 </a>
                             )}
 
@@ -323,9 +323,9 @@ function Contacts() {
                                     <FaStackOverflow aria-label='Stack Overflow' />
                                 </a>
                             )}
-                            {socialsData.facebook && (
+                            {socialsData.instagram && (
                                 <a
-                                    href={socialsData.facebook}
+                                    href={socialsData.instagram}
                                     target='_blank'
                                     rel='noreferrer'
                                     className="w-[45px] h-[45px] rounded-[50%] flex
@@ -333,7 +333,7 @@ function Contacts() {
                                       ease-in-out text-[#15202B] bg-[#8B98A5]
                                        hover:bg-[#1D9BF0]"
                                 >
-                                    <FaFacebook aria-label='facebook' />
+                                    <FaInstagram aria-label='instagram' />
                                 </a>
                             )}
                         </div>

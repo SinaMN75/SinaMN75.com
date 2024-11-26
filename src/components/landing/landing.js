@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import React, { useContext } from 'react';
 import {
-    FaFacebook,
     FaGithub,
+    FaInstagram,
     FaLinkedin,
-    FaTwitter
+    FaYoutube
 } from 'react-icons/fa';
 import Typed from 'react-typed';
 import { ThemeContext } from '../../contexts/theme-context';
@@ -52,29 +52,29 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {socialsData.twitter && (
+                        {socialsData.youtube && (
                             <a
-                                href={socialsData.twitter}
+                                href={socialsData.youtube}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaTwitter
+                                <FaYoutube
                                     className={styles.landingSocial}
                                     style={{ color: theme.primary }}
-                                    aria-label='Twitter'
+                                    aria-label='Youtube'
                                 />
                             </a>
                         )}
-                        {socialsData.facebook && (
+                        {socialsData.instagram && (
                             <a
-                                href={socialsData.facebook}
+                                href={socialsData.instagram}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaFacebook
+                                <FaInstagram
                                     className={styles.landingSocial}
                                     style={{ color: theme.primary }}
-                                    aria-label='facebook'
+                                    aria-label='instagram'
                                 />
                             </a>
                         )}
