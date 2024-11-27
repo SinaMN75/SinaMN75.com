@@ -12,6 +12,7 @@ import { headerData } from '../../data/header-data';
 import { socialsData } from '../../data/socials-data';
 import styles from '../../styles/landing.module.css';
 import Link from '../link';
+import sinamn75 from '../../assets/png/SinaMN75.jpg';
 
 function Landing() {
     const { theme, drawerOpen } = useContext(ThemeContext);
@@ -81,7 +82,7 @@ function Landing() {
                     </div>
                 </div>
                 <Image
-                    src={headerData.image}
+                    src={sinamn75}
                     alt=''
                     width={350}
                     height={350}
@@ -103,8 +104,8 @@ function Landing() {
                         <h1>{headerData.name}</h1>
                         <Typed
                             strings={[
-                                'Backend Developer',
-                                'Frontend Developer',
+                                'ASP.NET Developer',
+                                'Flutter Developer',
                                 'Fullstack Developer']}
                             typeSpeed={40}
                             backSpeed={50}

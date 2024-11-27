@@ -10,4 +10,5 @@ export { default as Navbar } from './navbar/navbar'
 export { default as SingleProject } from './projects/project-card/project-card'
 export { default as Projects } from './projects/projects'
 export { default as Skills } from './skills/skills'
+export { default as Companies } from './companies/companies'
 

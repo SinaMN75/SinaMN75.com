@@ -38,5 +38,5 @@ export const blogData = [
         date: 'Oct 1, 2020',
         image: 'https://1.bp.blogspot.com/-jhdtUBIRD_s/XxLFKQuRz9I/AAAAAAAABsM/mClfbfDFKvsUwA7Wyi25Lzu3DEmL2lxrACNcBGAsYHQ/s1919/gta.jpg',
         url: ''
-    },
+    }
 ]
